@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The differences between the two file versions are made easier to identify because of the sections
+used to break down the files.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easy access to file history saves time when trouble shooting and provides piece of mind that working
+versions are available if there is a need to revert to a previous version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manually choosing when to create a commit will prevent the confusion of too many commits that aren't necessarily meaningful.  However, if not mindful of creating commits, the manual responsibility to do so may result in lost work or poor documentation of changes.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some version control systems, like Git, may allow saving multiple files in one commit because of the nature of the types of files.  In
+programming, multiple files may be related to a project, but affected in different ways by a change.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log will show the different commits of a file, including serial numbers and authors.  Git diff will show you the differences
+between to files (serial numbers).  It will highlight additions and deletions.
+
+How might using version control make you more confident to make changes that could break something?
+
+Using version control will allow you the flexibility to return to previous versions if you break something.  This
+ability to return to a working version will make you a more confident developer.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to try using Git for Front End Developer project version control.
+
