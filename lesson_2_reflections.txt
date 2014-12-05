@@ -9,3 +9,8 @@ The staging area holds file that are set to be committed.  Files will still be c
 Even if the files are removed from the staging area, they will exist in the working directory.  Files that have
 been committed will become part of the repository.  I believe the staging area allows a space to organize files that 
 may be added to a repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can make sure to only add relevant files to the staging area.  If files are there
+that should not part of the logical change, you can use "git reset" to remove them.
