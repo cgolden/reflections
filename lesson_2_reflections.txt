@@ -30,3 +30,11 @@ What is the result of merging two branches together? Why do we represent it in t
 Merging two branches will combine the commits desired in the result.  It is represented
 in a diagram the way we do to provide a clear illustration of the reachability of the 
 commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is easy and useful when dealing with changes to different parts of the same
+file.  Conflicts may arise when the same section has been modified.  Automatic merging will
+not suffice in those situations.  Manual merging makes sure that the necessary investigation
+takes place so that the desired commit takes place when multiple changes are made to the same
+piece of code.
