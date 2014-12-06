@@ -24,3 +24,9 @@ versions without having to checkout older commits.
 How do the diagrams help you visualize the branch structure?
 
 They help you to understand the reachability of the commits as they relate to different branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches will combine the commits desired in the result.  It is represented
+in a diagram the way we do to provide a clear illustration of the reachability of the 
+commits.
