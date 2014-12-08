@@ -8,3 +8,9 @@ Why might you want to always pull changes manually rather than having Git automa
 Automatic pulls may result in changes that you did not want.  Since the repository is public,
 anyone can add changes. You may want to make informed decisions about what updates to your remote
 repository that you want in your local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork - a copy on another repository made directly on the GitHub server
+Clone - a copy of a repository made on your local machine
+Branch - a specific commit history path within a repository
