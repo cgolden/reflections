@@ -22,3 +22,9 @@ This allows us to be able to investigate conflicts and merge to reflect all comm
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Email, shared directory, dropbox, etc.  It may be more difficult to time/track the changes and comments.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch rather than directly in master, if you are collaborating
+and need to confirm changes with others.  This allows the master to remain in tact, while providing a way to 
+communicate forthcoming changes.  
