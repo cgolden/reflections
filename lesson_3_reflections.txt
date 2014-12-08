@@ -18,3 +18,7 @@ Branch - a specific commit history path within a repository
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This allows us to be able to investigate conflicts and merge to reflect all commits we desire.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Email, shared directory, dropbox, etc.  It may be more difficult to time/track the changes and comments.
