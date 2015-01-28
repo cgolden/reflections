@@ -1,0 +1,7 @@
+Reflect on the code review you just completed. What did you learn? What are you going to do differently on the next project? Record these reflections in a blog or personal journal for later review.
+
+The simplest oversight I made was omitting semicolons at the end of my function definitions.
+
+An error or undesirable coding practice that I am now aware of is not using for in loops to enumerate through arrays.  For in enumerates the fields of an object, not array indexes or values.  When we do this, we are relying on the fact that elsewhere in our code base no-one will ever tinker with the underlying object, and add some unexpected properties or methods. 
+
+We want to filter out properties or methods that are not part of the immediate collection. But How?  We can use hasOwnProperty().
